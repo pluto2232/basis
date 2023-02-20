@@ -1,0 +1,8 @@
+server:
+  port: 8881
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    database: [0,1,2,3,4,5,6]

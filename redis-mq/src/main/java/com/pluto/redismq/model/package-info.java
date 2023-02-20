@@ -1,0 +1,1 @@
+package com.pluto.redismq.model;
