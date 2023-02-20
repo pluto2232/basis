@@ -6,6 +6,9 @@ import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactor
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
 
+import java.util.Objects;
+import java.util.concurrent.TimeUnit;
+
 
 /**
  * @author cheny
@@ -44,6 +47,37 @@ public class RedisMqUtil {
         redisTemplate.opsForList().leftPush(topic, str);
     }
 
+    /**
+     *  添加消息 可定时
+     * @param db 数据库索引
+     * @param key 键
+     * @param obj 消息体
+     * @param time 秒
+     */
+    public void pushStr(int db,String key, Object obj, int time) {
+        String massage = obj instanceof String ? (String) obj : JSON.toJSONString(obj);
+
+        if(Objects.nonNull(db)){
+            //切换指定redis db 配置
+            changeDB(db);
+        }
+
+        if(Objects.isNull(time)){
+            redisTemplate.opsForValue().set(key, massage);
+        }else{
+            redisTemplate.opsForValue().set(key, massage, time, TimeUnit.SECONDS);
+        }
+    }
+
+
+    public String getStr(int db, String key) {
+
+        if(Objects.nonNull(db)){
+            //切换指定redis db 配置
+            changeDB(db);
+        }
+        return redisTemplate.opsForValue().get(key);
+    }
 
     private void changeDB(int db) {
         LettuceConnectionFactory connectionFactory = (LettuceConnectionFactory) redisTemplate.getConnectionFactory();

@@ -3,7 +3,6 @@ package com.pluto.redismq.controller;
 import com.pluto.redismq.utils.RedisMqUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -30,5 +29,17 @@ public class MainController {
     public void addOne1(String message) {
         redisMqUtil.addToMq(5,"topic2", message);
     }
+
+    @RequestMapping("/delay")
+    public void delay(String message) {
+        redisMqUtil.pushStr(6,"item", message,30);
+    }
+
+    @RequestMapping("/getDelay")
+    public String getDelay(String key) {
+        return redisMqUtil.getStr(6, key);
+    }
+
+
 
 }
