@@ -1,6 +1,7 @@
 package com.pluto.redismq.delayQueue;
 
 import com.pluto.redismq.controller.MainController;
+import com.pluto.redismq.utils.RedisMqUtil;
 import org.redisson.Redisson;
 import org.redisson.api.RBlockingQueue;
 import org.redisson.api.RDelayedQueue;
@@ -12,6 +13,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
+import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -25,6 +27,9 @@ import java.util.concurrent.TimeUnit;
 public class RedissonDelayQueue {
 
     private static final Logger log = LoggerFactory.getLogger(RedissonDelayQueue.class);
+
+    @Resource
+    private RedisMqUtil redisMqUtil;
 
 
     private RedissonClient redissonClient;
@@ -44,8 +49,12 @@ public class RedissonDelayQueue {
         serverConfig.setAddress("redis://localhost:6379");
         redissonClient = Redisson.create(config);
 
+
         blockingQueue = redissonClient.getBlockingQueue("SANYOU");
         delayQueue = redissonClient.getDelayedQueue(blockingQueue);
+
+
+
     }
 
     private void startDelayQueueConsumer() {
