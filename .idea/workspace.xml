@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0311b5de-77ab-49ab-bf4b-004566a1f430" name="Changes" comment="forest流程图(http客户端)">
+      <change beforePath="$PROJECT_DIR$/javacv-tutorials/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/javacv-tutorials/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaFXApplication" />
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="redis-mq-simple" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\mavenjars" />
+        <option name="mavenHome" value="D:/maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="#JAVA_HOME" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
+  <component name="ProjectId" id="2Lz5vGo3iguBKF6lQy5Wp91qmT2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "last_opened_file_path": "E:/face-valid/ArcSoft_ArcFace_Java_Windows_x64_V3.0/libs/arcsoft-sdk-face-3.0.0.0.jar",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.47931033",
+    "settings.editor.selected.configurable": "preferences.fileTypes",
+    "spring.configuration.checksum": "8c0c28e9851f01917b6b8317b059706d"
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\githubworkspace\basis\face-valid\src\main\java\com\facevalid\demo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pluto.redismq.utils" />
+      <recent name="com.pluto.redismq.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.com.grabpush.demo.PushMp4">
+    <configuration name="FaceEngineTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.facevalid.demo.FaceEngineTest" />
+      <module name="face-valid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.facevalid.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.facevalid.demo.Main" />
+      <module name="face-valid" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.facevalid.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.grabpush.demo.PushMp4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.grabpush.demo.PushMp4" />
+      <module name="simple-grab-push" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grabpush.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FaceValidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="face-valid" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.facevalid.FaceValidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="redis-mq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pluto.redismq.RedisMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleGrabPushApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simple-grab-push" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.grabpush.SimpleGrabPushApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleGrabPushApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="simple-grab-push" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pluto.simplegrabpush.SimpleGrabPushApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.com.grabpush.demo.PushMp4" />
+        <item itemvalue="Application.FaceEngineTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0311b5de-77ab-49ab-bf4b-004566a1f430" name="Changes" comment="" />
+      <created>1676861300125</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676861300125</updated>
+      <workItem from="1676861301418" duration="99000" />
+      <workItem from="1676861568043" duration="18812000" />
+      <workItem from="1676942632408" duration="24000" />
+      <workItem from="1677138108908" duration="6590000" />
+      <workItem from="1677311768237" duration="6219000" />
+      <workItem from="1677459923012" duration="14000" />
+      <workItem from="1677555634623" duration="767000" />
+    </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1676861904777</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676861904777</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初步实现mq">
+      <created>1676877159839</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676877159839</updated>
+    </task>
+    <task id="LOCAL-00003" summary="tag">
+      <created>1676877584962</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676877584962</updated>
+    </task>
+    <task id="LOCAL-00004" summary="redis 事件监听机制实现延迟消息">
+      <created>1676885411605</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676885411605</updated>
+    </task>
+    <task id="LOCAL-00005" summary="虹软人脸识别demo">
+      <created>1677312095607</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677312095607</updated>
+    </task>
+    <task id="LOCAL-00006" summary="虹软人脸识别demo">
+      <created>1677312157633</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677312157633</updated>
+    </task>
+    <task id="LOCAL-00007" summary="redisson 实现延时队列">
+      <created>1677312309013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677312309013</updated>
+    </task>
+    <task id="LOCAL-00008" summary="opencv 推流demo">
+      <created>1677316691660</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677316691660</updated>
+    </task>
+    <task id="LOCAL-00009" summary="forest流程图(http客户端)">
+      <created>1677317137143</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1677317137143</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="初步实现mq" />
+    <MESSAGE value="tag" />
+    <MESSAGE value="redis 事件监听机制实现延迟消息" />
+    <MESSAGE value="虹软人脸识别demo" />
+    <MESSAGE value="redisson 实现延时队列" />
+    <MESSAGE value="opencv 推流demo" />
+    <MESSAGE value="forest流程图(http客户端)" />
+    <option name="LAST_COMMIT_MESSAGE" value="forest流程图(http客户端)" />
+  </component>
+</project>
